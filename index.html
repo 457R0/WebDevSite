@@ -1,0 +1,168 @@
+<DOCTYPE:HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>My Web Dev Digital Notebook</h1>
+<h2>⚠⚠⚠Warning! This notebook was made to show my understanding. It WILL be messy and is revision for the forseeable future!⚠⚠⚠⚠</h2>
+<hr />
+<p>This notebook is to help learn by actually writing code. Notes are both "on-screen" and within the actual code. (In other words, open this page in an editior to see "under the hood")</p>
+<hr>
+<h3>Tome of Knowledge:</h3> 
+	<ul>
+		<li><a href="https://developer.mozilla.org/en-US/">MDN Docs</a></li>
+		<li><a href="www.devdocs.io">DevDocs</a></li>
+	<ul>
+
+<br>
+<!-- the element seen here create a comment -->
+<!-- Having at least one of the links above open is essential if you want to any of this to make sense -->
+<!-- Pay attention!! Notes are both "on-screen" and within the actual code -->
+<strong><h1 id="intro"></strong>
+  </h1>
+<br>
+<head><p class="psycheboost">El Psy Kongroo</p>
+</head>
+<body>
+<hr />
+<h1>HTML Section</h1>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Anatomy of an HTML Element</a>
+ The warning above is a heading made by using the h1 tag, headings go from 1-6
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+ <hr>
+
+
+ <!--  Rules:
+  1. Content is Everything (Content will determine how large things are displayed. Regardless of CSS
+  
+  2.Order: the order of elements on screen follows the same order they appear in the origninal code "Think top to bottom"
+  
+  3. Children sit on Parents: By default, all html elements sit on their parents. (if something isnt showing up, it's most likely hidden by under a/the parent) -->
+ <!-- <span> allows you to "highlight" text-->
+<!--<br> makes a break in the line of code (basically hitting enter)-->
+
+<!-- <div> is used for making divides-->
+  <div class=parenttut>
+    <h1>a<span>pro</span>grammer</h1>
+  </div>
+<p>A <strong>Div</strong> is a content division element
+  it allows you to divide content into seperate "boxes" which makes it easier for coder to interact with. To get a better understanding of the order of  parents and children take a look at the red box labeled programmer.
+  <br>
+  <br>
+  <br>
+   The red box is the div. It appears "last" on screen.
+  <br>
+  Next to be seen or "appear on screen" would be the blue h1 because it sits on its parent, the red div.<br>
+  Finally the yellow span sits on top of its parent the blue h1<br><br><br>to summarize when coding the user will see your coding like this: Yellow first then blue finally red.<br> This happens because
+    Red is blue's parent and yellows is blue's child
+  
+<br>  If that didnt make sense, think of them as layers instead, red is on the bottom, blue "sits"
+on red, and yellow is seated on top of blue.  </p>
+    
+  
+  
+  
+ an example of how<br>line breaks<br>effect how the text is seen
+<!-- <hr> makes a line across the page, it can be customized by applying an attribute -->
+<br>
+<hr>
+The basics for making a link: <a href="https://devdocs.io/html/element/link">Link Refresher</a>
+<hr>
+<!--<table> is how you'd make a table-->
+  <br>
+  <!-- A form consists of: 
+<label>text</label>
+<input type="text"> 
+<input type="submit">
+-->
+  There a many types of inputs types listed here:
+  <a href="https://devdocs.io/html/element/input">Input Types</a>
+  <br>
+  <form>
+  <label>Did you check out the links above?</label>
+  <input type=checkbox>
+  <input type=submit>
+    <br>
+    <label>sample text pick a month</label> 
+  <input type=month>
+    <input type=submit>
+  </form>
+  <input type=submit>
+  <br>
+  <hr>
+<table>
+ <colgroup>
+    <col class="grey" />
+    <col class="green"  />
+    <col class="purple" />
+  </colgroup>
+  <caption>I Figured it Out</caption>
+  <thead>
+    <tr>
+  <th>trial1</th>
+    <th>trial2</th>
+    <th>trial3</th>
+   </tr>
+  </thead>
+  </tbody>
+  <tr>
+   <td>The table body</td>
+   <td>with three</td>
+   <td>colored colums</td>
+ </tr>
+ <tr>
+  <th>Color</th>
+  <th>Color2</th>
+  <th>Color3</th>
+ </tr>
+</tbody>
+</table>
+  <hr>
+  
+
+
+ <!-- This lil section deals with both HTML n CSS -->
+
+
+  
+  <p class="introtwo">With the class attribute, you can give an element a "name" to make things easier to work with.
+  Using the id attribute allows you to give an element a "name" thats unique or specific to the element in question
+  
+</p>
+  <hr>
+
+  </body>
+
+
+
+
+</ul>
+<hr />
+<h4>CSS-Cascading Style Sheet </h4>
+	<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"> MDN CSS Walktrough </a>
+<br>
+<a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors">CSS Selector Crash Course</a>
+<p>The asterisk (*) aka universal selector for CSS, matches all elements in a document, allowing you to apply styles universally.</p>
+<p>It can be useful for resetting styles or applying a default style across all elements, but should be used carefully to avoid performance issues.</p>
+<br>
+<p>Theres 3 types of CSS:</p>
+	<ol>
+	<li>In-Line: Applied directly within an HTML element's style attribute, affecting only that specific element.</li>
+	<li>Internal: Defined within a style tag in the head section of an HTML document, influencing the entire page.</li>
+	<li>External: Contained in a separate .css file linked to the HTML document, allowing for consistent styling across multiple pages.</li>
+	</ol>
+<br>
+<a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/37350414#overview">Font Properties Tutorial</a>
+<a href="https://appbrewery.github.io/css-inspection/"> CSS Inspection Test</a>
+<hr />
+</ul>
+  <footer>© Taveon Nelson All rights reserved. El Psy Kongroo </footer>
+ </body>
+</html>
